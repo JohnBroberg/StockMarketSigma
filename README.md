@@ -59,10 +59,10 @@ The API notebook uses the [FRED API](https://fred.stlouisfed.org/docs/api/fred/)
 
 1. Create a FRED API key through your FRED account.
 2. Copy `.env.example` to `.env`.
-3. Replace `API_KEY_HERE` in `.env` with your key:
+3. Replace `your_fred_api_key_here` in `.env` with your key:
 
 	```text
-	FRED_API_KEY=your_key_here
+	FRED_API_KEY=your_fred_api_key_here
 	```
 
 4. Open `StockMarketSigma_API.ipynb` and run the cells from top to bottom.
